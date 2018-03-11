@@ -1,0 +1,161 @@
+/* universal */
+
+body {
+  display: block;
+  justify-content: center;
+  font-family: Helvetica;
+  font-size: 22px;
+  text-align: center;
+  background-color: black;
+  opacity: 0.9;
+  margin: 0;
+  color: seashell;
+}
+
+h2 {
+	font-size: 1.5em;
+	line-height: normal;
+}
+
+h4 {
+	font-size: 22px;
+}
+
+h2, h3, h4 {
+	margin: 0;
+	padding: 10px;
+}
+h5 {
+	font-size: 0.83em;
+}
+
+#left {
+	width: 1200px;
+	margin: auto;
+	text-align: left;
+	padding: 0 0 20px 0;
+}
+a {
+  color: grey;
+  text-decoration: underline;
+}
+
+
+/* header */
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 69px;
+  margin: auto;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  z-index: 1;
+}
+
+.headerlogo {
+  display: flex;
+}
+
+.headerlogo img{
+  height: 50px;
+  margin-left: 10px;
+}
+
+.headernav {
+	padding-right: 50px;
+}
+.headernav span {
+	display: inline-block;
+	padding: 0 10px;
+}
+
+/* mainContent */
+
+.mission {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  width: 1200px;
+  height: 700px;
+  margin: auto;
+  background-image: url(../images/img-mission-background.jpg);
+}
+
+.herotext {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  width: 100%;	
+}
+
+/* Teas of the month */
+
+.store {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 1000px;
+	height: 700px;
+	margin: auto;
+}
+
+.teas {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 1000px;
+	margin: 0 auto;
+}
+
+
+.item img {
+	display: block;
+	margin: 10px;
+	height: 200px;
+}
+.item {
+	padding: 0 0 20px 0;
+}
+
+/* Locations */
+
+.location {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-image: url(../images/img-locations-background.jpg);	
+	width: 1200px;
+	height: 500px;
+	margin: 0 auto;
+	padding-top: 10px;
+	align-items: center;
+}
+
+
+.addresses {
+	display: flex;
+	justify-content: space-around;
+}
+
+
+.shop {
+	background-color: black;
+	width: 300px;
+	margin: 15px 20px;
+}
+
+
+/* Footer */
+
+.footer {
+	padding-top: 30px	
+}
